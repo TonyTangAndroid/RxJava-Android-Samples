@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout
     android:orientation="vertical"
     android:layout_height="match_parent"
@@ -26,17 +25,17 @@
             android:layout_weight="7"
             android:layout_height="match_parent"
             android:layout_width="0dp"
-            android:inputType="textNoSuggestions"
             android:textSize="16sp"
-            android:hint="Enter some search text"
+            android:hint="@string/enter_some_search_text"
+            android:inputType="textNoSuggestions"
             />
 
         <ImageButton
             android:id="@+id/clr_debounce"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_width="0dp"
-            android:src="@android:drawable/ic_menu_close_clear_cancel"
             />
 
     </LinearLayout>
